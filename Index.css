@@ -1,0 +1,36 @@
+{
+    margin: 0;
+    padding: 0;  
+}
+.profile-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;           
+    height: 150px;          
+    border-radius: 50%;    
+    object-fit: cover;     
+    border: 3px solid #b6330b; 
+    box-shadow: 0 4px 8px rgb(116, 255, 2); 
+}
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+}
+.header{
+    background:rgb(3, 194, 153);
+    color: black;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.project{
+    border: 2px solid black;
+    padding: 1rem;
+    margin: 1rem;
+}
