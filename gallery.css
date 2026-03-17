@@ -1,0 +1,84 @@
+*,*::before,*::after    {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e42503;
+    color:darksalmon;
+    line-height: 1.6;
+}
+
+.page-header {
+    backgroun: linear-gradient(135deg, #e42503, #fbbf24);
+    color: white;
+    padding: 40px 32px;
+    text-align: center;
+}
+.page-header h1 {
+    margin: 0;
+    font-size: 2.25rem;
+}
+.page-header p {
+    margin: 8px 0 0;
+    opacity: 0.9;
+}
+.gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.card {
+    background: rgb(221, 5, 5);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #eb4a0a;
+}
+.card-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body{
+    padding: 1rem;
+}
+.card-body h3{
+    margin: 0.5rem;
+    font-size: 1.15rem;
+    color: white;
+}
+.card-body p{
+    margin: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+.card {
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(0.95);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.location-badge {
+    display: inline-block;
+    background: #c25801;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}

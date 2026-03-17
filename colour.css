@@ -1,0 +1,45 @@
+{
+    padding: 0;
+    margin: 0;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 600px) {
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+}
+body{
+    font-size: 1rem;
+    padding: 1rem;
+}
+/* Tablet and larger screens */
+@media (min-width: 601px) {
+    body{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+/* Tablet and larger screens(640px) */
+@media (min-width: 641px) {
+    body{
+        font-size: 1.4rem;
+        padding: 2rem;
+    }
+}
+/* Desktop and larger screens(1024px) */
+@media (min-width: 1024px) {
+    body{
+        font-size: 1.6rem;
+        padding: 3rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
