@@ -1,6 +1,49 @@
+
 {
+    padding: 0;
     margin: 0;
-    padding: 0;  
+}
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 600px) {
+    .profile-pic {
+        width: 100px;
+        height: 100px;
+    }
+}
+body{
+    font-size: 1rem;
+    padding: 1rem;
+}
+/* Tablet and larger screens */
+@media (min-width: 601px) {
+    body{
+        font-size: 1.2rem;
+        padding: 1rem;
+    }
+}
+/* Tablet and larger screens(640px) */
+@media (min-width: 641px) {
+    body{
+        font-size: 1.4rem;
+        padding: 2rem;
+    }
+}
+/* Desktop and larger screens(1024px) */
+@media (min-width: 1024px) {
+    body{
+        font-size: 1.6rem;
+        padding: 3rem;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
 }
 .profile-container {
     text-align: center;
@@ -33,4 +76,89 @@
     border: 2px solid black;
     padding: 1rem;
     margin: 1rem;
+}
+
+*,*::before,*::after    {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0167ac;
+    color:darksalmon;
+    line-height: 1.6;
+}
+
+.page-header {
+    backgroun: linear-gradient(135deg, #0167ac, #7e3ab6a6);
+    color: white;
+    padding: 40px 32px;
+    text-align: center;
+}
+.page-header h1 {
+    margin: 0;
+    font-size: 2.25rem;
+}
+.page-header p {
+    margin: 8px 0 0;
+    opacity: 0.9;
+}
+.gallery-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.card {
+    background: rgb(4, 77, 145);
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #02324e;
+}
+.card-img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    height: 200px;
+    object-fit: cover;
+}
+.card-body{
+    padding: 1rem;
+}
+.card-body h3{
+    margin: 0.5rem;
+    font-size: 1.15rem;
+    color: white;
+}
+.card-body p{
+    margin: 0.5rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+.card {
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: scale(0.95);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+.location-badge {
+    display: inline-block;
+    background: #045280;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 700;
 }
