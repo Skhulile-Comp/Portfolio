@@ -1,0 +1,322 @@
+ <body class="bg-gray-50 text-gray-50 font-sans"></body>
+    <main>
+        <div id="profile-container">
+            <img src="face.jpg" alt="Profile Picture" class="profile-picture">
+        </div>
+    <div id="hero">
+    <sect ion id="hero">
+        <h1 class="text-3xl font-bold underline">Welcome to my Portfolio</h1>
+        <p>Geetings I am Skhulile Khoza, a passionate full-stack developer student.
+            I am dedicated to learning and mastering the art of web development, 
+            both on the front-end and back-end. With a strong foundation in programming languages and frameworks, 
+            I am eager to create innovative and user-friendly applications that make a positive impact in the digital world.
+        </p>
+    </section>
+    </div>
+    <div id="certifications">
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <p>
+             Scratch Certification - Harvard CS50. This certification demonstrates proficiency in Scratch programming, showcasing creativity and problem-solving skills in a visual programming environment.  
+             Able to code on minecraft- Minecraft Academy during the course, I developed coding skills by creating mods and custom content for Minecraft, demonstrating creativity and technical proficiency in game development.
+             Computational Thinking Certification - Unicollege gave me a strong foundation in logical reasoning and algorithmic thinking.
+        </p>
+    </section>
+    </div>
+    <div id="projects">
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>
+            1. Personal Portfolio Website: Developed a responsive personal portfolio website using HTML, CSS, and JavaScript to showcase my skills, projects, and experience. The website features a clean design and interactive elements to engage visitors.
+            2. Task Management App: Created a task management application using React for the front-end and Node.js with Express for the back-end. The app allows users to create, update, and delete tasks, with user authentication and data persistence using MongoDB.
+            3. E-commerce Platform: Built a simple e-commerce platform using Django for the back-end and Bootstrap for the front-end. The platform includes features such as product listing, shopping cart functionality, and user authentication.
+        </p>
+    </section>
+    </div>
+    <div id="experience">
+    <section id="experience">
+        <h2>Experience/Skills</h2>
+        <p>
+            Experience: 
+            1. Internship at XYZ Company: Worked as a junior developer, contributing to the development of a web application using React and Node.js. Collaborated with a team of developers and gained hands-on experience in the software development lifecycle.
+            2. Freelance Web Developer: Completed several freelance projects for clients, including website development and maintenance. This experience allowed me to work independently and manage client relationships effectively.
+            
+            Skills:
+            - Programming Languages: Proficient in JavaScript, Python, and Java.
+            - Frameworks and Libraries: Experienced with React, Node.js, Express, Django, and Bootstrap.
+            - Database Management: Familiar with MongoDB and MySQL.
+            - Version Control: Proficient in Git for version control and collaboration.
+            - Problem-Solving: Strong analytical skills and ability to troubleshoot issues effectively.
+        </p>
+    </section>
+    </div>
+    <div id="contact">
+    <section id="contact">  
+        <h2>Contact</h2>
+        <p>
+            <div>Email: skhulilekhoza@example.com</div>
+            <div>Phone: +1234567890</div>
+            <div>LinkedIn: linkedin.com/in/skhulilekhoza</div>
+        </p>
+    </section>
+    </div>
+    </main>
+
+</body>
+
+
+
+
+
+
+
+
+<!--OVERLAY-->
+ <div class="overlay first"></div>
+   <div class="overlay first"></div>
+   <div class="overlay first"></div>
+    <!--HEADER-->
+    <header class="1-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav_logo">Bedimcode</a>
+            </div>
+             <ul>
+            
+                
+<li class="fa fa-home"><a href="#certifications"               class="w3-bar-itemw3-buttonw3-padding-largew3-green">Certifications</a></li>
+            <li class="nav_item"><a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-green">Projects</a></li>
+            <li class="fa fa-eye"><a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-green">Experience/Skills</a></li>
+            <li class="fa fa-envelope"><a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-green">Contact</a></li>
+            </ul>
+        <div class="nav_toggle" id="nav-toggle" ></ion-icon name="menu"></div>   
+        </nav>
+</header>
+
+<!--MAIN-->
+    <main class="1-main bd-grid"></main>
+    <header class="home">
+        <div class="home_present anime-text">Greetings Skhulile Here</div>
+        <div>
+            <a href="a" class="home_button anime-text"></a>
+        </div>
+
+        <a href="#Contacts" class="hire me-btn-css">Hire Me</a>
+        <nav class="sticky top-0 z-50">
+            <div class="max-w-6xl mx-auto px-4">
+                <div class="flex justify-between">
+                    <div class="flex space-x-4">
+                        <!-- Logo -->
+                        <div>
+                            <a href="#" class="flex items-center py-5 px-2 text-gray-700">
+                                <img src="face.jpg" alt="Logo" class="h-8 w-8 mr-2 rounded-full">
+                                <span class="font-bold">Skhulile Khoza</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hidden md:flex space-x-6 text-sm font-medium text-gray-600">
+                        <a href="#certifications" class="hover:text-gray-900">Certifications</a>
+                        <a href="#projects" class="hover:text-gray-900">Projects</a>
+                        <a href="#experience" class="hover:text-gray-900">Experience/Skills</a>
+                        <a href="#contact" class="hover:text-gray-900">Contact</a>
+                  
+                    </div>
+        </nav>
+    </header>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="future.jpg" alt="About Me" >
+        </div>
+        <div class="info-box">
+            <div class="text">
+                <h3>Greetings, I am</h3>
+                <h1>Skhulile Khoza</h1>
+                <span>A Software Developer Student</span>
+            </div>
+        </div>
+        <div class= "btn-group">
+            <div class="btn">Hire ME</div>
+            <div class="btn">Contact</div>
+            <div class="socials">
+                <i class="fa-brands fa-github"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-file-code"></i>
+                <i class="fa-solid fa-laptop"></i>
+                <i class="fa-solid fa-list"></i>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </section>
+
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience/Skills</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <span> Software Developer Student</span>
+                    <h3> 3 months</h3>
+                    <p>As a software developer student, I have gained hands-on experience in various programming languages and frameworks. I have worked on projects that involve both front-end and back-end development, allowing me to develop a well-rounded skill set. I am proficient in languages such as JavaScript, Python, and Java, and have experience with frameworks like React, Node.js, and Django. I am also familiar with database management using MongoDB and MySQL. Through my studies and projects, I have honed my problem-solving skills and ability to troubleshoot issues effectively.</p>
+                </div>
+                <div class="grid-card">
+                    <span> Software Developer Student</span>
+                    <h3> 3 months</h3>
+                    <p>As a software developer student, I have gained hands-on experience in various programming languages and frameworks. I have worked on projects that involve both front-end and back-end development, allowing me to develop a well-rounded skill set. I am proficient in languages such as JavaScript, Python, and Java, and have experience with frameworks like React, Node.js, and Django. I am also familiar with database management using MongoDB and MySQL. Through my studies and projects, I have honed my problem-solving skills and ability to troubleshoot issues effectively.</p>
+                </div>
+               <div class="grid-card">
+                    <span> Software Developer Student</span>
+                    <h3> 3 months</h3>
+                    <p>As a software developer student, I have gained hands-on experience in various programming languages and frameworks. I have worked on projects that involve both front-end and back-end development, allowing me to develop a well-rounded skill set. I am proficient in languages such as JavaScript, Python, and Java, and have experience with frameworks like React, Node.js, and Django. I am also familiar with database management using MongoDB and MySQL. Through my studies and projects, I have honed my problem-solving skills and ability to troubleshoot issues effectively.</p>
+                </div>
+                <div class="grid-card">
+                    <span> Software Developer Student</span>
+                    <h3> 3 months</h3>
+                    <p>As a software developer student, I have gained hands-on experience in various programming languages and frameworks. I have worked on projects that involve both front-end and back-end development, allowing me to develop a well-rounded skill set. I am proficient in languages such as JavaScript, Python, and Java, and have experience with frameworks like React, Node.js, and Django. I am also familiar with database management using MongoDB and MySQL. Through my studies and projects, I have honed my problem-solving skills and ability to troubleshoot issues effectively.</p>
+                </div> 
+            </div>
+            <img src="experience.jpg" alt="Experience Image">
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+
+        <h2 class="section-title"></h2>
+
+    </section>
+
+
+
+</head>
+<body> 
+  <header class="header">
+    <a href="#" class="logo"><span>Skhu</span>lile</a>
+
+    <nav class="navbar">
+        <a href="#" class="avtive">Portfolio</a>
+        <a href="#">About</a>
+        <a href="#">Certifications</a>
+        <a href="#">Experience/Skills</a>
+        <a href="#">Contact</a>
+    </nav>
+   <a href="#" class="contact">Contact Me</a>
+  </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hi</h3>
+            <h1>I'm <span>Skhulile<br></span>Software Developer Student</h1>
+            <p>
+             I am dedicated to learning and mastering the art of web development, 
+            both on the front-end and back-end. With a strong foundation in programming languages and frameworks, 
+            I am eager to create innovative and user-friendly applications that make a positive impact in the digital world.
+            </p>
+            <div class="btn-box">
+                <button class="btn-1">Hire Me</button>
+                <button class="btn-2">Experience</button>
+            </div>
+        </div>
+        <div class="img-box">
+            <img src="1.-LUNGELO-HEADSHOT.jpeg">
+        </div>
+    </section>
+
+    <section class="about">
+
+        <div class="about.img">
+            <img src="office.jpg" alt="about">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <h3>Software<span>Developer</span></h3>
+            <p>
+                I am dedicated to learning and mastering the art of web development, 
+            both on the front-end and back-end. With a strong foundation in programming languages and frameworks, 
+            I am eager to create innovative and user-friendly applications that make a positive impact in the digital world.
+            </p>
+            <a href="#" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <h2 class="contact-me">Contact<span>Me</span></h2>
+
+        <form action="#">
+
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" value="Send Message" class="btn-1">
+        </form>
+    </section>
+   
+   
+    <footer class="footer">
+
+        <div class="social">
+            <a href="#"><i class='<i class="fa-brands fa-facebook"></i>'
+            </a>
+            <a href="#"><i class="<i class="fa-brands fa-linkedin"></i>"
+            </a>
+            <a href="#"><i class="<i class="fa-brands fa-instagram"></i>"
+            </a>
+            <a href="#"><i class="<i class="fa-brands fa-twitter"></i>"
+            </a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#" >FAQ</a>
+            </li>
+             <li>
+                <a href="#" >About Me</a>
+            </li>
+             <li>
+                <a href="#" >Experience</a>
+            </li>
+             <li>
+                <a href="#" >Certifications</a>
+            </li>
+             <li>
+                <a href="#" >Contact</a>
+            </li>
+             <li>
+                <a href="#" >Privacy</a>
+            </li>
+        </ul>
+        <p class="copyright"> 2026 Skhulile All Rights Reserved</p>
+    </footer>
+
+
+  </body>
+  </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
