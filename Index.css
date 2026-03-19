@@ -26,12 +26,12 @@
     transition: 0.3s ease;
 }
 .logo:hover{
-    color: orangered;
-    text-shadow: 0 0 25px orangered, 0 0 50px orangered;
+    color: rgb(5, 148, 129);
+    text-shadow: 0 0 25px rgb(5, 148, 129), 0 0 50px rgb(5, 148, 129);
     transform: scale(1.1);
 }
 span{
-    color: orangered;
+    color: rgb(5, 148, 129);
 }
 .navbar a{
     font-size: 18px;
@@ -43,8 +43,8 @@ span{
 }
 .navbar a:hover,
 .navbar a.active{
-    color: orangered;
-    border-bottom: 3px solid orangered;
+    color: rgb(5, 148, 129);
+    border-bottom: 3px solid rgb(5, 148, 129);
 }
 .contact{
     padding: 10px 28px;
@@ -57,8 +57,8 @@ span{
     transition: 0.3s ease;
 }
 .contact:hover{
-    background-color: orangered;
-    box-shadow: 0 0 25px orangered;
+    background-color: rgb(5, 148, 129);
+    box-shadow: 0 0 25px rgb(5, 148, 129);
     color: white;
 }
 .home{
@@ -109,7 +109,7 @@ span{
 }
 .btn-2{
     padding: 15px 28px;
-    background-color: orangered;
+    background-color: rgb(5, 148, 129);
     color: white;
     border: 2px solid black;
     border-radius: 8px;
@@ -121,17 +121,17 @@ span{
 }
 .btn-2:hover{
     background-color: white;
-    color: orangered;
+    color: rgb(5, 148, 129);
 }
 .img-box img{
     border-radius: 50%;
-    width: 550%;
+    width: 100;
 }
 ::-webkit-scrollbar{
     width: 15px;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: orangered;
+    background-color: rgb(5, 148, 129);
 }
 ::-webkit-scrollbar-track{
     background-color: rgba(0, 0, 0, 0.60);
@@ -148,8 +148,8 @@ span{
 }
 .about-img img{
     position: relative;
-    width: 550px;
-    box-shadow: 0 0 25px orangered, 0 0 50px orangered;
+    width: 100px;
+    box-shadow: 0 0 25px rgb(5, 148, 129), 0 0 50px rgb(5, 148, 129);
     border-radius: 50%;
 }
 .about-content h2{
@@ -210,7 +210,7 @@ span{
 .footer .social a{
     font-size: 24px;
     color: white;
-    border: 2px solid orangered;
+    border: 2px solid rgb(5, 148, 129);
     width: 40px;
     height: 40px;
     line-height: 38px;
@@ -218,13 +218,13 @@ span{
     text-align: center;
     border-radius: 50%;
     margin: 0 8px;
-    box-shadow: insert 0 0 10px orangered, 0 0 10px orangered;
+    box-shadow: insert 0 0 10px rgb(5, 148, 129), 0 0 10px rgb(5, 148, 129);
     transition: 0.3s ease;
 }
 .footer .social a:hover{
     transform: scale(1.2) translater(-10px);
-    color: orangered;
-    border: 2px solid orangered;
+    color: rgb(5, 148, 129);
+    border: 2px solid rgb(5, 148, 129);
 }
 .footer ul{
     margin-top: 0;
@@ -240,7 +240,7 @@ span{
     transition: 0.3s ease;
 }
 .footer ul li a:hover{
-    border-bottom: 3px solid orangered;
+    border-bottom: 3px solid rgb(5, 148, 129);
 }
 .footer ul li{
     display: inline-block;
