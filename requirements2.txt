@@ -1,0 +1,8 @@
+sa-todo/
+├── app.py              ← routes + TASKS list at the top
+├── templates/
+│   ├── base.html       ← navbar, flash render, Tailwind CDN
+│   └── index.html      ← extends base; form + lists
+├── test_app.py
+├── requirements.txt
+└── README.md
